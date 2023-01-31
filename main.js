@@ -1,3 +1,4 @@
+import darkThemeButton from "./dark_theme.js";
 
 const doc = document; // Abreviación de document
 
@@ -6,6 +7,9 @@ doc.addEventListener("DOMContentLoaded", (e) => {
   scrollTopButton(".scroll-top-btn");
 
 });
+
+darkThemeButton(".dark-theme-btn", ".dark-theme-i");
+
 /* Scroll Top Button */
 
 function scrollTopButton(btn) {
